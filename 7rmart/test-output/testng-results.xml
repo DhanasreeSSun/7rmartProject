@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="2" total="17" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-04T00:09:24 IST" name="Suite" finished-at="2025-06-04T00:11:59 IST" duration-ms="154874">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifyLoginPageWithCorrectUserNameandCorrectPassword()[pri:1, instance:testscript.LoginTest@7098b907]" name="verifyLoginPageWithCorrectUserNameandCorrectPassword" class="testscript.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.verifyLoginPageWithCorrectUserNameandIncorrectPassword()[pri:2, instance:testscript.LoginTest@7098b907]" name="verifyLoginPageWithCorrectUserNameandIncorrectPassword" class="testscript.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-06-04T00:09:24 IST" name="Test" finished-at="2025-06-04T00:11:59 IST" duration-ms="154874">
+      <class name="testscript.ManageNewsTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageNewsTest@448c8166]" started-at="2025-06-04T00:10:55 IST" name="initializeBrowser" finished-at="2025-06-04T00:10:59 IST" duration-ms="4631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="manageNewsmethod()[pri:0, instance:testscript.ManageNewsTest@448c8166]" started-at="2025-06-04T00:10:59 IST" name="manageNewsmethod" description="Enter News Informations in ManageNewsPage" finished-at="2025-06-04T00:11:04 IST" duration-ms="4796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageNewsmethod -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageNewsTest@448c8166]" started-at="2025-06-04T00:11:04 IST" name="quitAndClose" finished-at="2025-06-04T00:11:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=manageNewsmethod status=SUCCESS method=ManageNewsTest.manageNewsmethod()[pri:0, instance:testscript.ManageNewsTest@448c8166] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+      </class> <!-- testscript.ManageNewsTest -->
+      <class name="testscript.ManageContactTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageContactTest@147e2ae7]" started-at="2025-06-04T00:10:38 IST" name="initializeBrowser" finished-at="2025-06-04T00:10:42 IST" duration-ms="4022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyContactDetailsUpdateSuccessfullyinContactUsPage()[pri:0, instance:testscript.ManageContactTest@147e2ae7]" started-at="2025-06-04T00:10:42 IST" name="verifyContactDetailsUpdateSuccessfullyinContactUsPage" description="verify contact details update in ContactUsPage successfully" finished-at="2025-06-04T00:10:47 IST" duration-ms="4934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactDetailsUpdateSuccessfullyinContactUsPage -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageContactTest@147e2ae7]" started-at="2025-06-04T00:10:47 IST" name="quitAndClose" finished-at="2025-06-04T00:10:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactDetailsUpdateSuccessfullyinContactUsPage status=SUCCESS method=ManageContactTest.verifyContactDetailsUpdateSuccessfullyinContactUsPage()[pri:0, instance:testscript.ManageContactTest@147e2ae7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageContactTest@147e2ae7]" started-at="2025-06-04T00:10:47 IST" name="initializeBrowser" finished-at="2025-06-04T00:10:51 IST" duration-ms="4827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyUpdateButtoninContactUsPageDisplayedSuccessfully()[pri:0, instance:testscript.ManageContactTest@147e2ae7]" started-at="2025-06-04T00:10:51 IST" name="verifyUpdateButtoninContactUsPageDisplayedSuccessfully" description="verify the update button is visible in ContactUsPage" finished-at="2025-06-04T00:10:55 IST" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateButtoninContactUsPageDisplayedSuccessfully -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageContactTest@147e2ae7]" started-at="2025-06-04T00:10:55 IST" name="quitAndClose" finished-at="2025-06-04T00:10:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUpdateButtoninContactUsPageDisplayedSuccessfully status=SUCCESS method=ManageContactTest.verifyUpdateButtoninContactUsPageDisplayedSuccessfully()[pri:0, instance:testscript.ManageContactTest@147e2ae7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+      </class> <!-- testscript.ManageContactTest -->
+      <class name="testscript.HomeTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.HomeTest@4470fbd6]" started-at="2025-06-04T00:11:04 IST" name="initializeBrowser" finished-at="2025-06-04T00:11:10 IST" duration-ms="5733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyLogOutAvatarByClickOnIt()[pri:0, instance:testscript.HomeTest@4470fbd6]" started-at="2025-06-04T00:11:10 IST" name="verifyLogOutAvatarByClickOnIt" description="verify Logout from the page successfully" finished-at="2025-06-04T00:11:12 IST" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOutAvatarByClickOnIt -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.HomeTest@4470fbd6]" started-at="2025-06-04T00:11:12 IST" name="quitAndClose" finished-at="2025-06-04T00:11:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogOutAvatarByClickOnIt status=SUCCESS method=HomeTest.verifyLogOutAvatarByClickOnIt()[pri:0, instance:testscript.HomeTest@4470fbd6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+      </class> <!-- testscript.HomeTest -->
+      <class name="testscript.ManageFooterTextTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageFooterTextTest@15d49048]" started-at="2025-06-04T00:11:12 IST" name="initializeBrowser" finished-at="2025-06-04T00:11:15 IST" duration-ms="3503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyManageFooterTextPage()[pri:0, instance:testscript.ManageFooterTextTest@15d49048]" started-at="2025-06-04T00:11:15 IST" name="verifyManageFooterTextPage" description="verify FooterText Information sussessfully Update in FooterText page" finished-at="2025-06-04T00:11:19 IST" duration-ms="4006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageFooterTextPage -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageFooterTextTest@15d49048]" started-at="2025-06-04T00:11:19 IST" name="quitAndClose" finished-at="2025-06-04T00:11:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyManageFooterTextPage status=SUCCESS method=ManageFooterTextTest.verifyManageFooterTextPage()[pri:0, instance:testscript.ManageFooterTextTest@15d49048] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageFooterTextTest@15d49048]" started-at="2025-06-04T00:11:19 IST" name="initializeBrowser" finished-at="2025-06-04T00:11:26 IST" duration-ms="6336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyUpdateButtonDisplayedSuccessfully()[pri:0, instance:testscript.ManageFooterTextTest@15d49048]" started-at="2025-06-04T00:11:26 IST" name="verifyUpdateButtonDisplayedSuccessfully" description="Verify UpdateButton is displayed in ManageFooterText Page" finished-at="2025-06-04T00:11:32 IST" duration-ms="6408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateButtonDisplayedSuccessfully -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageFooterTextTest@15d49048]" started-at="2025-06-04T00:11:32 IST" name="quitAndClose" finished-at="2025-06-04T00:11:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUpdateButtonDisplayedSuccessfully status=SUCCESS method=ManageFooterTextTest.verifyUpdateButtonDisplayedSuccessfully()[pri:0, instance:testscript.ManageFooterTextTest@15d49048] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+      </class> <!-- testscript.ManageFooterTextTest -->
+      <class name="testscript.AdminUsersTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.AdminUsersTest@78452606]" started-at="2025-06-04T00:10:28 IST" name="initializeBrowser" finished-at="2025-06-04T00:10:34 IST" duration-ms="6189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="adminUsersTest()[pri:0, instance:testscript.AdminUsersTest@78452606]" started-at="2025-06-04T00:10:34 IST" name="adminUsersTest" description="Verifying Admin user can add new users successfully" finished-at="2025-06-04T00:10:38 IST" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminUsersTest -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.AdminUsersTest@78452606]" started-at="2025-06-04T00:10:38 IST" name="quitAndClose" finished-at="2025-06-04T00:10:38 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adminUsersTest status=SUCCESS method=AdminUsersTest.adminUsersTest()[pri:0, instance:testscript.AdminUsersTest@78452606] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+      </class> <!-- testscript.AdminUsersTest -->
+      <class name="testscript.LoginTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:32 IST" name="initializeBrowser" finished-at="2025-06-04T00:11:36 IST" duration-ms="3623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyLoginPageWithIncorrectUserNameandIncorrectPassword(java.lang.String,java.lang.String)[pri:0, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:36 IST" name="verifyLoginPageWithIncorrectUserNameandIncorrectPassword" description="Verifying user is able to login with invalid username and invalid password" data-provider="LoginProvider" finished-at="2025-06-04T00:11:37 IST" duration-ms="940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminAdmin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageWithIncorrectUserNameandIncorrectPassword -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:37 IST" name="quitAndClose" finished-at="2025-06-04T00:11:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageWithIncorrectUserNameandIncorrectPassword status=SUCCESS method=LoginTest.verifyLoginPageWithIncorrectUserNameandIncorrectPassword(java.lang.String,java.lang.String)[pri:0, instance:testscript.LoginTest@7098b907] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:37 IST" name="initializeBrowser" finished-at="2025-06-04T00:11:43 IST" duration-ms="5925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyLoginPageWithCorrectUserNameandCorrectPassword()[pri:1, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:43 IST" name="verifyLoginPageWithCorrectUserNameandCorrectPassword" description="Verifying User is able to login with valid credentials" finished-at="2025-06-04T00:11:44 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageWithCorrectUserNameandCorrectPassword -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:44 IST" name="quitAndClose" finished-at="2025-06-04T00:11:44 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageWithCorrectUserNameandCorrectPassword status=SUCCESS method=LoginTest.verifyLoginPageWithCorrectUserNameandCorrectPassword()[pri:1, instance:testscript.LoginTest@7098b907] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:44 IST" name="initializeBrowser" finished-at="2025-06-04T00:11:50 IST" duration-ms="6316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyLoginPageWithCorrectUserNameandIncorrectPassword()[pri:2, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:50 IST" name="verifyLoginPageWithCorrectUserNameandIncorrectPassword" description="Verifying user is able to login with valid username and invalid password" finished-at="2025-06-04T00:11:53 IST" duration-ms="2818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageWithCorrectUserNameandIncorrectPassword -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:53 IST" name="quitAndClose" finished-at="2025-06-04T00:11:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageWithCorrectUserNameandIncorrectPassword status=SUCCESS method=LoginTest.verifyLoginPageWithCorrectUserNameandIncorrectPassword()[pri:2, instance:testscript.LoginTest@7098b907] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:53 IST" name="initializeBrowser" finished-at="2025-06-04T00:11:57 IST" duration-ms="4166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyLoginPageWithIncorrectUserNameandCorrectPassword()[pri:3, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:57 IST" name="verifyLoginPageWithIncorrectUserNameandCorrectPassword" description="Verifying user is able to login with invalid username and valid Password" finished-at="2025-06-04T00:11:59 IST" duration-ms="1384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageWithIncorrectUserNameandCorrectPassword -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@7098b907]" started-at="2025-06-04T00:11:59 IST" name="quitAndClose" finished-at="2025-06-04T00:11:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageWithIncorrectUserNameandCorrectPassword status=SUCCESS method=LoginTest.verifyLoginPageWithIncorrectUserNameandCorrectPassword()[pri:3, instance:testscript.LoginTest@7098b907] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+      </class> <!-- testscript.LoginTest -->
+      <class name="testscript.ManageCategoryTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:09:24 IST" name="initializeBrowser" finished-at="2025-06-04T00:09:31 IST" duration-ms="6903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully()[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:09:31 IST" name="verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully" description="verify the Items entered in ManageCategory Page should be entered successfully" finished-at="2025-06-04T00:09:38 IST" duration-ms="6695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:09:38 IST" name="quitAndClose" finished-at="2025-06-04T00:09:38 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully status=SUCCESS method=ManageCategoryTest.verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully()[pri:0, instance:testscript.ManageCategoryTest@38145825] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:09:38 IST" name="initializeBrowser" finished-at="2025-06-04T00:09:42 IST" duration-ms="4240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method retried="true" signature="verifyitemselectedForDeletesuccessfullyDeleteFromListCategories()[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:09:42 IST" name="verifyitemselectedForDeletesuccessfullyDeleteFromListCategories" description="Verify the selected Item Delete from the ListCategories" finished-at="2025-06-04T00:09:55 IST" duration-ms="12685" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']"}
+  (Session info: chrome=137.0.7151.57)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [969c58a0ff732da8d8ee8ad39846cd47, findElement {using=xpath, value=//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.57, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51848}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51848/devtoo..., se:cdpVersion: 137.0.7151.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 969c58a0ff732da8d8ee8ad39846cd47]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']"}
+  (Session info: chrome=137.0.7151.57)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [969c58a0ff732da8d8ee8ad39846cd47, findElement {using=xpath, value=//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.57, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51848}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51848/devtoo..., se:cdpVersion: 137.0.7151.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 969c58a0ff732da8d8ee8ad39846cd47
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.ManageCategoryPage.clickDeleteButton(ManageCategoryPage.java:190)
+at testscript.ManageCategoryTest.verifyitemselectedForDeletesuccessfullyDeleteFromListCategories(ManageCategoryTest.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyitemselectedForDeletesuccessfullyDeleteFromListCategories -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:09:55 IST" name="quitAndClose" finished-at="2025-06-04T00:09:55 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyitemselectedForDeletesuccessfullyDeleteFromListCategories status=SKIP method=ManageCategoryTest.verifyitemselectedForDeletesuccessfullyDeleteFromListCategories()[pri:0, instance:testscript.ManageCategoryTest@38145825] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:09:55 IST" name="initializeBrowser" finished-at="2025-06-04T00:09:59 IST" duration-ms="3943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method retried="true" signature="verifyitemselectedForDeletesuccessfullyDeleteFromListCategories()[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:09:59 IST" name="verifyitemselectedForDeletesuccessfullyDeleteFromListCategories" description="Verify the selected Item Delete from the ListCategories" finished-at="2025-06-04T00:10:11 IST" duration-ms="12125" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']"}
+  (Session info: chrome=137.0.7151.57)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96d3f9991e107b61d9f2dba6fe72d6de, findElement {using=xpath, value=//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.57, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51872}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51872/devtoo..., se:cdpVersion: 137.0.7151.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96d3f9991e107b61d9f2dba6fe72d6de]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']"}
+  (Session info: chrome=137.0.7151.57)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96d3f9991e107b61d9f2dba6fe72d6de, findElement {using=xpath, value=//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.57, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51872}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51872/devtoo..., se:cdpVersion: 137.0.7151.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96d3f9991e107b61d9f2dba6fe72d6de
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.ManageCategoryPage.clickDeleteButton(ManageCategoryPage.java:190)
+at testscript.ManageCategoryTest.verifyitemselectedForDeletesuccessfullyDeleteFromListCategories(ManageCategoryTest.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyitemselectedForDeletesuccessfullyDeleteFromListCategories -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:10:11 IST" name="quitAndClose" finished-at="2025-06-04T00:10:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyitemselectedForDeletesuccessfullyDeleteFromListCategories status=SKIP method=ManageCategoryTest.verifyitemselectedForDeletesuccessfullyDeleteFromListCategories()[pri:0, instance:testscript.ManageCategoryTest@38145825] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:10:11 IST" name="initializeBrowser" finished-at="2025-06-04T00:10:15 IST" duration-ms="3713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyitemselectedForDeletesuccessfullyDeleteFromListCategories()[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:10:15 IST" name="verifyitemselectedForDeletesuccessfullyDeleteFromListCategories" description="Verify the selected Item Delete from the ListCategories" finished-at="2025-06-04T00:10:28 IST" duration-ms="13138" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']"}
+  (Session info: chrome=137.0.7151.57)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [158fd68ec4bf82aab6d2596a7f858fca, findElement {using=xpath, value=//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.57, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51900/devtoo..., se:cdpVersion: 137.0.7151.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 158fd68ec4bf82aab6d2596a7f858fca]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']"}
+  (Session info: chrome=137.0.7151.57)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [158fd68ec4bf82aab6d2596a7f858fca, findElement {using=xpath, value=//a[@href='https://groceryapp.uniqassosiates.com/admin/category/delete?del=2405&page_ad=1' and @class='btn btn-sm btn btn-danger btncss']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.57, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51900/devtoo..., se:cdpVersion: 137.0.7151.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 158fd68ec4bf82aab6d2596a7f858fca
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.ManageCategoryPage.clickDeleteButton(ManageCategoryPage.java:190)
+at testscript.ManageCategoryTest.verifyitemselectedForDeletesuccessfullyDeleteFromListCategories(ManageCategoryTest.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyitemselectedForDeletesuccessfullyDeleteFromListCategories -->
+        <test-method is-config="true" signature="quitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2025-06-04T00:10:28 IST" name="quitAndClose" finished-at="2025-06-04T00:10:28 IST" duration-ms="263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyitemselectedForDeletesuccessfullyDeleteFromListCategories status=FAILURE method=ManageCategoryTest.verifyitemselectedForDeletesuccessfullyDeleteFromListCategories()[pri:0, instance:testscript.ManageCategoryTest@38145825] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAndClose -->
+      </class> <!-- testscript.ManageCategoryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
