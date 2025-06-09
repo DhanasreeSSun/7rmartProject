@@ -8,17 +8,19 @@ import utilities.PageUtility;
 
 public class ManageContactPage {
 	public WebDriver driver;
-	
-	PageUtility pageutility=new PageUtility();
-	
+
+	PageUtility pageutility = new PageUtility();
+
 	public ManageContactPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
-	
-//	@FindBy(xpath = "//a[@href='https://groceryapp.uniqassosiates.com/admin/list-contact' and @class='small-box-footer']")
-//	WebElement ManageContactMoreInfo;
+	/*
+	 * @FindBy(xpath =
+	 * "//a[@href='https://groceryapp.uniqassosiates.com/admin/list-contact' and @class='small-box-footer']"
+	 * ) WebElement ManageContactMoreInfo;
+	 */
 	@FindBy(xpath = "//a[@href='https://groceryapp.uniqassosiates.com/admin/contact/edit_contact?edit=1']")
 	WebElement ActioninContactus;
 	@FindBy(xpath = "//input[@id='phone']")
@@ -35,64 +37,61 @@ public class ManageContactPage {
 	WebElement Update;
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement GreenAlertContact;
-//	public void clickOnManageContactMoreInfoButtonInHomePage()
-//	{
-//		
-//		ManageContactMoreInfo.click();
-//	}
-	public ManageContactPage clickOnActionButtonInlist_contact()
-	{
-		
+
+	/*
+	 * public void clickOnManageContactMoreInfoButtonInHomePage() {
+	 * 
+	 * ManageContactMoreInfo.click(); }
+	 */
+	public ManageContactPage clickOnActionButtonInlist_contact() {
+
 		ActioninContactus.click();
 		return this;
 	}
-	public ManageContactPage enterPhoneNumberinPhoneTextField(String phone)
-	{
+
+	public ManageContactPage enterPhoneNumberinPhoneTextField(String phone) {
 		Phone.clear();
 		Phone.sendKeys(phone);
 		return this;
 	}
-	public ManageContactPage enterEmailinEmailTextField(String email)
-	{
+
+	public ManageContactPage enterEmailinEmailTextField(String email) {
 		Email.clear();
 		Email.sendKeys(email);
 		return this;
 	}
-	public ManageContactPage enterAddressInAddressTextField(String address)
-	{
+
+	public ManageContactPage enterAddressInAddressTextField(String address) {
 		Address.clear();
 		Address.sendKeys(address);
 		return this;
 	}
-	public ManageContactPage enterDeliveryTimeinDeliveryTimeTextField(String deliverytime)
-	{
+
+	public ManageContactPage enterDeliveryTimeinDeliveryTimeTextField(String deliverytime) {
 		DeliveryTime.clear();
 		DeliveryTime.sendKeys(deliverytime);
 		return this;
 	}
-	public ManageContactPage enterDeliveryChargeLimitinDeliveryChargeTextField(String deliverychargelimit)
-	{
+
+	public ManageContactPage enterDeliveryChargeLimitinDeliveryChargeTextField(String deliverychargelimit) {
 		DeliveryChargeLimit.clear();
 		DeliveryChargeLimit.sendKeys(deliverychargelimit);
 		return this;
 	}
-	public boolean isUpdateButtonVisibleInContactUsPage()
-	{
+
+	public boolean isUpdateButtonVisibleInContactUsPage() {
 		return Update.isDisplayed();
 	}
-	
-	public ManageContactPage clickOnUpdateButton()
-	{
-		//Update.click();
-		
+
+	public ManageContactPage clickOnUpdateButton() {
+
 		pageutility.javaScriptClick(Update, driver);
 		return this;
 	}
-	public boolean isGreenAlertDisplayedForSuccessfulUpdate()
-	{
-		return GreenAlertContact.isDisplayed();
-		
-	}
 
+	public boolean isGreenAlertDisplayedForSuccessfulUpdate() {
+		return GreenAlertContact.isDisplayed();
+
+	}
 
 }

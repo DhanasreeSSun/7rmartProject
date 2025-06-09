@@ -1,4 +1,5 @@
 package pages;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -7,14 +8,13 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
 	public WebDriver driver;// public
 
-	public LoginPage(WebDriver driver) {// constructor may change
-		this.driver = driver;// instance variable of current class
-		PageFactory.initElements(driver, this);// method inside pagefactory
-		// driver-local driver,this-instance driver of current class,for initialize
-		// webelements-initelements
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+
 	}
 
-	// @FindBy(xpath="//input[@type='text']") WebElement usernameField;
+	
 	@FindBy(xpath = "//input[@name='username']")
 	WebElement uid;
 	@FindBy(xpath = "//input[@name='password']")

@@ -11,27 +11,29 @@ import com.aventstack.extentreports.Status;
 
 import utilities.ExtendReportUtility;
 
-public class Listeners implements ITestListener {//ITestListener is interface
+public class Listeners implements ITestListener {// ITestListener is interface
 	ExtentTest test;
 
-	ExtentReports extent = ExtendReportUtility.createExtentReports();//Extendreport call here
-	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();//for not overlap while multipletestcase
+	ExtentReports extent = ExtendReportUtility.createExtentReports();// Extendreport call here
+	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();// for not overlap while multipletestcase
 
-	public void onTestStart(ITestResult result) {//check console and after other actions are performed
+	public void onTestStart(ITestResult result) {// check console and after other actions are performed
 
-		ITestListener.super.onTestStart(result);//report added to //fetch testcase name and add to report
+		ITestListener.super.onTestStart(result);// report added to -fetch testcase name and add to report
 		test = extent.createTest(result.getMethod().getMethodName());
 		extentTest.set(test);
 
 	}
 
-	public void onTestSuccess(ITestResult result) {//liste console,if passed report is testpassed
+	public void onTestSuccess(ITestResult result) {// liste console,if passed report is testpassed
 
 		ITestListener.super.onTestSuccess(result);
 		extentTest.get().log(Status.PASS, "Test Passed");
 
 	}
-	public void onTestFailure(ITestResult result) {//if status is fail ,add fail to report and reason for failure is added to the report
+
+	public void onTestFailure(ITestResult result) {// if status is fail ,add fail to report and reason for failure is
+													// added to the report
 
 		ITestListener.super.onTestFailure(result);
 		extentTest.get().log(Status.FAIL, "Test Failed");
@@ -60,7 +62,8 @@ public class Listeners implements ITestListener {//ITestListener is interface
 		} catch (Exception e) {
 		}
 	}
-public void onTestSkipped(ITestResult result) {
+
+	public void onTestSkipped(ITestResult result) {
 		ITestListener.super.onTestSkipped(result);
 		extentTest.get().log(Status.SKIP, "Test Skipped");
 		String testMethodName = result.getMethod().getMethodName();
@@ -69,18 +72,17 @@ public void onTestSkipped(ITestResult result) {
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 
-		ITestListener.super.onTestFailedButWithinSuccessPercentage(result);//graphical representation
+		ITestListener.super.onTestFailedButWithinSuccessPercentage(result);// graphical representation
 	}
+
 	public void onStart(ITestContext context) {
 
 		ITestListener.super.onStart(context);
 	}
 
-	public void onFinish(ITestContext context) {//important method
+	public void onFinish(ITestContext context) {// important method
 
 		ITestListener.super.onFinish(context);
-		extent.flush();//importance is report is generated only after call the flush()
+		extent.flush();// importance is report is generated only after call the flush()
 	}
-		}
-
-
+}

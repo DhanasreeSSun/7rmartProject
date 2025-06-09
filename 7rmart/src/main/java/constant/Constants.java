@@ -4,8 +4,8 @@ public class Constants {
 	//img,file etc 
 	public static final String TESTDATAFILE = System.getProperty("user.dir")+"\\src\\test\\resources\\TestData.xlsx";
 	public static final String CONFIGFILE = System.getProperty("user.dir")+"\\src\\main\\resources\\config.properties";
-	public static final String STATIONARY=System.getProperty("user.dir")+"\\src\\main\\resources\\stationary.jpeg";
-	public static final String FANCYITEMSSTATIONARY=System.getProperty("user.dir")+"\\src\\main\\resources\\FANYITEMS.jpg";
+	public static final String STATIONARY=System.getProperty("user.dir")+"\\src\\test\\resources\\stationary.jpeg";
+	public static final String FANCYITEMSSTATIONARY=System.getProperty("user.dir")+"\\src\\test\\resources\\FANYITEMS.jpg";
 	public static final String LOGININCORRECTUSERNAMECORRECTPWD="Homeage is not loaded with using valid credentials";
 	public static final String LOGININCORRECTPASSWORD="HomePageIsLoadedWithIncorrectPassword";//for message
 	public static final String LOGININCORRECTUSERNAME="HomePage is loaded with IncorrectUsername";
@@ -26,6 +26,17 @@ public class Constants {
 	
 	
 	
+
+
+
+
+
+
+
+
+
+
+
 	//+"\\Desktop\\photos\\CategoriesFoeProject";
 	//public static final String FILE = System.getProperty("user.dir")+"\\src\\test\\resources\\TestData.xlsx";
 

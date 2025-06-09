@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/2</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 03 19:33:15 IST 2025</td>
+<td>Started on:</td><td>Mon Jun 09 07:40:47 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>46 seconds (46898 ms)</td>
+<tr><td>Total time:</td><td>49 seconds (49039 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,40 +76,171 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testscript.HomeTest.verifyLogOutAvatarByClickOnIt()'><b>verifyLogOutAvatarByClickOnIt</b><br>Test class: testscript.HomeTest</td>
+<td title='testscript.AdminUsersTest.verifyAdminUsersTest()'><b>verifyAdminUsersTest</b><br>Test class: testscript.AdminUsersTest<br>Test method: Verifying Admin user can add new users successfully</td>
 <td></td>
-<td>10</td>
-<td>testscript.HomeTest@24959ca4</td></tr>
-<tr>
-<td title='testscript.ManageCategoryTest.verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully()'><b>verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully</b><br>Test class: testscript.ManageCategoryTest</td>
-<td></td>
-<td>17</td>
-<td>testscript.ManageCategoryTest@23941fb4</td></tr>
+<td>13</td>
+<td>testscript.AdminUsersTest@13526e59</td></tr>
 <tr>
 <td title='testscript.LoginTest.verifyLoginPageWithCorrectUserNameandCorrectPassword()'><b>verifyLoginPageWithCorrectUserNameandCorrectPassword</b><br>Test class: testscript.LoginTest<br>Test method: Verifying User is able to login with valid credentials</td>
 <td></td>
+<td>2</td>
+<td>testscript.LoginTest@36804139</td></tr>
+<tr>
+<td title='testscript.HomeTest.verifyLogOutAvatarByClickOnIt()'><b>verifyLogOutAvatarByClickOnIt</b><br>Test class: testscript.HomeTest<br>Test method: verify Logout from the page successfully</td>
+<td></td>
+<td>5</td>
+<td>testscript.HomeTest@3bcd05cb</td></tr>
+<tr>
+<td title='testscript.ManageNewsTest.verifyManageNewsPage()'><b>verifyManageNewsPage</b><br>Test class: testscript.ManageNewsTest<br>Test method: Enter News Informations in ManageNewsPage</td>
+<td></td>
+<td>3</td>
+<td>testscript.ManageNewsTest@17503f6b</td></tr>
+<tr>
+<td title='testscript.ManageCategoryTest.verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully()'><b>verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully</b><br>Test class: testscript.ManageCategoryTest<br>Test method: verify the Items entered in ManageCategory Page should be entered successfully</td>
+<td></td>
+<td>11</td>
+<td>testscript.ManageCategoryTest@1e4f4a5c</td></tr>
+<tr>
+<td title='testscript.ManageContactTest.verifyContactDetailsUpdateSuccessfullyinContactUsPage()'><b>verifyContactDetailsUpdateSuccessfullyinContactUsPage</b><br>Test class: testscript.ManageContactTest<br>Test method: verify contact details update in ContactUsPage successfully</td>
+<td></td>
+<td>14</td>
+<td>testscript.ManageContactTest@2235eaab</td></tr>
+<tr>
+<td title='testscript.ManageFooterTextTest.verifyManageFooterTextPage()'><b>verifyManageFooterTextPage</b><br>Test class: testscript.ManageFooterTextTest<br>Test method: verify FooterText Information sussessfully Update in FooterText page</td>
+<td></td>
+<td>12</td>
+<td>testscript.ManageFooterTextTest@3b6d844d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testscript.HomeTest.verifyLogOutAvatarByClickOnIt()'><b>verifyLogOutAvatarByClickOnIt</b><br>Test class: testscript.HomeTest<br>Test method: verify Logout from the page successfully</td>
+<td><div><pre>java.io.IOException: Stream Closed
+	at java.base/java.io.FileInputStream.available0(Native Method)
+	at java.base/java.io.FileInputStream.available(FileInputStream.java:473)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:428)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:197)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.fill(ZipArchiveInputStream.java:861)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readFromInflater(ZipArchiveInputStream.java:650)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readDeflated(ZipArchiveInputStream.java:625)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.read(ZipArchiveInputStream.java:528)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.read(ZipArchiveThresholdInputStream.java:80)
+	at org.apache.poi.util.IOUtils.toByteArray(IOUtils.java:240)
+	at org.apache.poi.util.IOUtils.toByteArray(IOUtils.java:203)
+	at org.apache.poi.openxml4j.util.ZipArchiveFakeEntry.&lt;init&gt;(ZipArchiveFakeEntry.java:82)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:98)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:132)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:319)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:290)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:286)
+	at utilities.ExcelUtility.getStringData(ExcelUtility.java:23)
+	at testscript.HomeTest.verifyLogOutAvatarByClickOnIt(HomeTest.java:18)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1002759006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1002759006'><pre>java.io.IOException: Stream Closed
+	at java.base/java.io.FileInputStream.available0(Native Method)
+	at java.base/java.io.FileInputStream.available(FileInputStream.java:473)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:428)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:197)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.fill(ZipArchiveInputStream.java:861)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readFromInflater(ZipArchiveInputStream.java:650)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readDeflated(ZipArchiveInputStream.java:625)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.read(ZipArchiveInputStream.java:528)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.read(ZipArchiveThresholdInputStream.java:80)
+	at org.apache.poi.util.IOUtils.toByteArray(IOUtils.java:240)
+	at org.apache.poi.util.IOUtils.toByteArray(IOUtils.java:203)
+	at org.apache.poi.openxml4j.util.ZipArchiveFakeEntry.&lt;init&gt;(ZipArchiveFakeEntry.java:82)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:98)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:132)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:319)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:290)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:286)
+	at utilities.ExcelUtility.getStringData(ExcelUtility.java:23)
+	at testscript.HomeTest.verifyLogOutAvatarByClickOnIt(HomeTest.java:18)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
 <td>1</td>
-<td>testscript.LoginTest@5c86dbc5</td></tr>
+<td>testscript.HomeTest@3bcd05cb</td></tr>
 <tr>
-<td title='testscript.ManageNewsTest.manageNewsmethod()'><b>manageNewsmethod</b><br>Test class: testscript.ManageNewsTest</td>
-<td></td>
-<td>13</td>
-<td>testscript.ManageNewsTest@730d2164</td></tr>
-<tr>
-<td title='testscript.AdminUsersTest.adminUsersTest()'><b>adminUsersTest</b><br>Test class: testscript.AdminUsersTest<br>Test method: aVerifying Admin user can add new users successfully</td>
-<td></td>
-<td>15</td>
-<td>testscript.AdminUsersTest@36804139</td></tr>
-<tr>
-<td title='testscript.ManageFooterTextTest.verifyManageFooterTextPage()'><b>verifyManageFooterTextPage</b><br>Test class: testscript.ManageFooterTextTest</td>
-<td></td>
-<td>6</td>
-<td>testscript.ManageFooterTextTest@10289886</td></tr>
-<tr>
-<td title='testscript.ManageContactTest.verifyContactDetailsUpdateSuccessfullyinContactUsPage()'><b>verifyContactDetailsUpdateSuccessfullyinContactUsPage</b><br>Test class: testscript.ManageContactTest</td>
-<td></td>
-<td>19</td>
-<td>testscript.ManageContactTest@20bd8be5</td></tr>
+<td title='testscript.ManageCategoryTest.verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully()'><b>verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully</b><br>Test class: testscript.ManageCategoryTest<br>Test method: verify the Items entered in ManageCategory Page should be entered successfully</td>
+<td><div><pre>org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:156)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:94)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:132)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:319)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:290)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:286)
+	at utilities.ExcelUtility.getStringData(ExcelUtility.java:23)
+	at testscript.ManageCategoryTest.verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully(ManageCategoryTest.java:25)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.zip.ZipException: Unexpected record signature: 0XF15D3C49
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry(ZipArchiveInputStream.java:296)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:152)
+	... 21 more
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1897484834", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1897484834'><pre>org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:156)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:94)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:132)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:319)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:290)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:286)
+	at utilities.ExcelUtility.getStringData(ExcelUtility.java:23)
+	at testscript.ManageCategoryTest.verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully(ManageCategoryTest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.zip.ZipException: Unexpected record signature: 0XF15D3C49
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry(ZipArchiveInputStream.java:296)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:152)
+	... 21 more
+</pre></div></td>
+<td>1</td>
+<td>testscript.ManageCategoryTest@1e4f4a5c</td></tr>
 </table><p>
 </body>
 </html>

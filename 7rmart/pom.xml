@@ -79,7 +79,7 @@
                  <configuration> 
                      <testFailureIgnore>true</testFailureIgnore> 
                      <suiteXmlFiles> 
-                         <suiteXmlFile>testng.xml</suiteXmlFile> 
+                         <suiteXmlFile>testng.xml</suiteXmlFile> <!-- to run testng.xml-->
                      </suiteXmlFiles> 
                  </configuration> 
              </plugin> 

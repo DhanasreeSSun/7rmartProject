@@ -9,9 +9,9 @@
     <classes>
       <class name="testscript.AdminUsersTest">
         <methods>
-          <include name="quitAndClose"/>
           <include name="initializeBrowser"/>
-          <include name="adminUsersTest"/>
+          <include name="quitAndClose"/>
+          <include name="verifyAdminUsersTest"/>
         </methods>
       </class> <!-- testscript.AdminUsersTest -->
       <class name="testscript.ManageCategoryTest">
@@ -26,18 +26,10 @@
   <test thread-count="5" parallel="tests" name="EdgeTest(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testscript.AdminUsersTest">
-        <methods>
-          <include name="initializeBrowser"/>
-          <include name="quitAndClose"/>
-          <include name="adminUsersTest"/>
-        </methods>
-      </class> <!-- testscript.AdminUsersTest -->
       <class name="testscript.ManageCategoryTest">
         <methods>
           <include name="initializeBrowser"/>
           <include name="quitAndClose"/>
-          <include name="verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully"/>
           <include name="verifyitemselectedForDeletesuccessfullyDeleteFromListCategories"/>
         </methods>
       </class> <!-- testscript.ManageCategoryTest -->

@@ -16,9 +16,27 @@ public class Retry implements IRetryAnalyzer {
 		}
 		return false;
 	}
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //reexecute failed testcases
 //wrong read from Excel cannot aply
 //network not stable fail 

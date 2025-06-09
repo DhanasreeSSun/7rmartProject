@@ -17,7 +17,7 @@ public class ExcelUtility {
 	static XSSFSheet sh;
 	public static String getStringData(int i, int j, String sheet) throws IOException  
 	{  
-		String filepath = Constants.TESTDATAFILE;	//in java give it in direct fileinput stream class//here read from another class	
+		String filepath = Constants.TESTDATAFILE;		
 		//classname.variable name-static
 		f = new FileInputStream(filepath);
 		wb = new XSSFWorkbook(f);

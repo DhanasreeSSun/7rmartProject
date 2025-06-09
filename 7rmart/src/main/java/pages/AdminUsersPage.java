@@ -17,8 +17,6 @@ public class AdminUsersPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	// @FindBy(xpath="//a[@href='https://groceryapp.uniqassosiates.com/admin/list-admin'
-	// and text()='More info ']")WebElement adminusersMoreInfo;
 	@FindBy(xpath = "//a[@href='javascript:void(0)' and @onclick='click_button(1)']")
 	WebElement newuseradd;
 	@FindBy(xpath = "//input[@id='username']")
@@ -34,28 +32,23 @@ public class AdminUsersPage {
 	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	WebElement successfulalert;
 
-//public void adminUsers()
-//{
-//	adminusersMoreInfo.click();
-//}
 	public AdminUsersPage newUserAdminUser() {
 		newuseradd.click();
 		return this;
 	}
 
-	public AdminUsersPage adminUsersInfoUname(String username) {
+	public AdminUsersPage enter_AdminUsersInfoUsername(String username) {
 		newusersusername.sendKeys(username);
 		return this;
 	}
 
-	public AdminUsersPage adminUsersInfoPwd(String password) {
+	public AdminUsersPage enter_AdminUsersInfoPassword(String password) {
 		newuserspassword.sendKeys(password);
 		return this;
 	}
 
-	public AdminUsersPage adminUsersTypeSelect(String value) {
+	public AdminUsersPage choose_AdminUsersTypeSelect(String value) {
 
-		
 		pageutility.selectByVisibleText(selectuser, value);
 		return this;
 
@@ -63,22 +56,12 @@ public class AdminUsersPage {
 
 	public AdminUsersPage saveAdminUsersInfo() {
 		savebutton.click();
-		// pageutility.mouseClick(savebutton);
 		return this;
 	}
-	public boolean successfullAlertdisplayed() {
+
+	public boolean isSuccessfullAlertdisplayed() {
 		return successfulalert.isDisplayed();
 
 	}
 
-	/*
-	 * public void newAddedUserLogin() { newusersusername }
-	 */
-	/*
-	 * public boolean userAlreadyExistAlertdisplayed() { return
-	 * alertalreadyexist.isDisplayed();
-	 * 
-	 * }
-	 */
-	
 }

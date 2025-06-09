@@ -11,7 +11,7 @@
         <methods>
           <include name="initializeBrowser"/>
           <include name="quitAndClose"/>
-          <include name="adminUsersTest"/>
+          <include name="verifyAdminUsersTest"/>
         </methods>
       </class> <!-- testscript.AdminUsersTest -->
       <class name="testscript.ManageCategoryTest">
@@ -21,32 +21,25 @@
           <include name="verifyitemselectedForDeletesuccessfullyDeleteFromListCategories"/>
         </methods>
       </class> <!-- testscript.ManageCategoryTest -->
-      <class name="testscript.ManageContactTest">
+      <class name="testscript.ManageFooterTextTest">
         <methods>
-          <include name="quitAndClose"/>
           <include name="initializeBrowser"/>
-          <include name="verifyUpdateButtoninContactUsPageDisplayedSuccessfully"/>
+          <include name="quitAndClose"/>
+          <include name="verifyUpdateButtonDisplayedSuccessfully"/>
         </methods>
-      </class> <!-- testscript.ManageContactTest -->
+      </class> <!-- testscript.ManageFooterTextTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
   <test thread-count="5" name="EdgeTest(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testscript.ManageCategoryTest">
+      <class name="testscript.ManageFooterTextTest">
         <methods>
-          <include name="quitAndClose"/>
           <include name="initializeBrowser"/>
-          <include name="verifyitemselectedForDeletesuccessfullyDeleteFromListCategories"/>
-        </methods>
-      </class> <!-- testscript.ManageCategoryTest -->
-      <class name="testscript.ManageContactTest">
-        <methods>
           <include name="quitAndClose"/>
-          <include name="initializeBrowser"/>
-          <include name="verifyUpdateButtoninContactUsPageDisplayedSuccessfully"/>
+          <include name="verifyManageFooterTextPage"/>
         </methods>
-      </class> <!-- testscript.ManageContactTest -->
+      </class> <!-- testscript.ManageFooterTextTest -->
     </classes>
   </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [crossbrowsertesting] -->
