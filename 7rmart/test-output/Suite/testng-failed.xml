@@ -7,20 +7,35 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testscript.ManageContactTest">
+        <methods>
+          <include name="quitAndClose"/>
+          <include name="initializeBrowser"/>
+          <include name="verifyUpdateButtoninContactUsPageDisplayedSuccessfully"/>
+          <include name="verifyUserisAbletoUpdateContactDetailsSuccessfullyinContactUsPage"/>
+        </methods>
+      </class> <!-- testscript.ManageContactTest -->
       <class name="testscript.AdminUsersTest">
         <methods>
-          <include name="quitAndClose"/>
           <include name="initializeBrowser"/>
-          <include name="adminUsersTest"/>
+          <include name="quitAndClose"/>
+          <include name="verify_whether_User_is_able_to_AddAdminUsers_in_AdminUsersPage"/>
         </methods>
       </class> <!-- testscript.AdminUsersTest -->
-      <class name="testscript.ManageCategoryTest">
+      <class name="testscript.ManageNewsTest">
         <methods>
           <include name="initializeBrowser"/>
           <include name="quitAndClose"/>
-          <include name="verifyitemselectedForDeletesuccessfullyDeleteFromListCategories"/>
+          <include name="verifyTheUserIsAbleToEnter_and_Save_News_in_ManageNewsPage"/>
         </methods>
-      </class> <!-- testscript.ManageCategoryTest -->
+      </class> <!-- testscript.ManageNewsTest -->
+      <class name="testscript.HomeTest">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="quitAndClose"/>
+          <include name="verify_the_User_is_able_to_LogOut_from_the_page_by_ClickOn_LogoutButton"/>
+        </methods>
+      </class> <!-- testscript.HomeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
