@@ -17,14 +17,14 @@ public class ManageNewsTest extends Base {
 	HomePage homepage;
 
 	@Test(description = "Enter News Informations in ManageNewsPage", retryAnalyzer = retry.Retry.class)
-	public void verifyTheUserIsAbleToEnterNewsInManageNewsPage() throws IOException {
+	public void verifyTheUserIsAbleToEnter_and_Save_News_in_ManageNewsPage() throws IOException {
 		String username = ExcelUtility.getStringData(1, 0, "loginpage");
 		String password = ExcelUtility.getStringData(1, 1, "loginpage");
 		LoginPage loginpage = new LoginPage(driver);
 		loginpage.enterUserName(username).enterPassword(password);
 		homepage = loginpage.clickSigninButton();
 		String news = ExcelUtility.getStringData(1, 0, "managenewspage");
-		managenewspage = homepage.moreInfolink();
+		managenewspage = homepage.click_on_ManageNews_moreInfolink();
 		managenewspage.click_On_NewButton_in_list_newspage().enter_News_in_Newstext_Field(news).click_On_Savebutton();
 		boolean ismanagenewsdispvar = managenewspage.isAlertMsgDisplayed();
 		Assert.assertTrue(ismanagenewsdispvar, Constants.NEWSUPDATEERROR);

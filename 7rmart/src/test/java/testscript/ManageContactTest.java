@@ -16,7 +16,7 @@ public class ManageContactTest extends Base {
 	HomePage homepage;
 
 	@Test(description = "verify contact details update in ContactUsPage successfully", retryAnalyzer = retry.Retry.class)
-	public void verifyContactDetailsUpdateSuccessfullyinContactUsPage() throws IOException {
+	public void verifyUserisAbletoUpdateContactDetailsSuccessfullyinContactUsPage() throws IOException {
 		String username = ExcelUtility.getStringData(1, 0, "loginpage");
 		String password = ExcelUtility.getStringData(1, 1, "loginpage");
 		LoginPage loginpage = new LoginPage(driver);
@@ -29,10 +29,10 @@ public class ManageContactTest extends Base {
 		String deliverytime = ExcelUtility.getIntegerData(1, 3, "contactus");
 		String deliverychargelimit = ExcelUtility.getIntegerData(1, 4, "contactus");
 
-		managecontactpage = homepage.clickOnManageContactMoreInfoButtonInHomePage();
+		managecontactpage = homepage.click_onManageContact_MoreInfoButtonInHomePage();
 		managecontactpage.clickOnActionButtonInlist_contact().enterPhoneNumberinPhoneTextField(phone)
 				.enterEmailinEmailTextField(email).enterAddressInAddressTextField(address)
-				.enterDeliveryTimeinDeliveryTimeTextField(deliverytime)
+				.enterDeliveryTime_in_DeliveryTimeTextField(deliverytime)
 				.enterDeliveryChargeLimitinDeliveryChargeTextField(deliverychargelimit).clickOnUpdateButton();
 		boolean successfulupdatevar = managecontactpage.isGreenAlertDisplayedForSuccessfulUpdate();
 		Assert.assertTrue(successfulupdatevar, Constants.UPDATECONTACTERROR);
@@ -46,7 +46,7 @@ public class ManageContactTest extends Base {
 		LoginPage loginpage = new LoginPage(driver);
 		loginpage.enterUserName(username).enterPassword(password);
 		homepage = loginpage.clickSigninButton();
-		managecontactpage = homepage.clickOnManageContactMoreInfoButtonInHomePage();
+		managecontactpage = homepage.click_onManageContact_MoreInfoButtonInHomePage();
 		managecontactpage.clickOnActionButtonInlist_contact();
 		boolean updatebtnvisiblityvar = managecontactpage.isUpdateButtonVisibleInContactUsPage();
 		Assert.assertTrue(updatebtnvisiblityvar, Constants.UPDATEBUTTONDISPLAYERROR);

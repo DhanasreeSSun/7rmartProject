@@ -19,7 +19,7 @@ public class AdminUsersTest extends Base {
 
 	@Test(retryAnalyzer = retry.Retry.class, description = "Verifying Admin user can add new users successfully")
 
-	public void verifyWhetherUserIsAbleAddAdminUsers() throws IOException {
+	public void verify_whether_User_is_able_to_AddAdminUsers_in_AdminUsersPage() throws IOException {
 		String username = ExcelUtility.getStringData(1, 0, "loginpage");
 		String password = ExcelUtility.getStringData(1, 1, "loginpage");
 
@@ -35,8 +35,8 @@ public class AdminUsersTest extends Base {
 
 		String userType = ExcelUtility.getStringData(2, 2, "adminuser");
 
-		adminuserspage = homepage.adminUsersMoreInfo();
-		adminuserspage.newUserAdminUser().enter_AdminUsersInfoUsername(username_AdminUserTest)
+		adminuserspage = homepage.click_on_AdminUsersMoreInfo();
+		adminuserspage.add_NewUser_in_AdminUsersPage().enter_AdminUsersInfoUsername(username_AdminUserTest)
 				.enter_AdminUsersInfoPassword(password_AdminUserTest).choose_AdminUsersTypeSelect(userType)
 				.saveAdminUsersInfo();
 

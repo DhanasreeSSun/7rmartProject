@@ -30,23 +30,23 @@ public class HomePage {
 	@FindBy(xpath = "//a[@href='https://groceryapp.uniqassosiates.com/admin/list-category' and @class='small-box-footer']")
 	WebElement ManageCategoryMoreInfo;
 
-	public AdminUsersPage adminUsersMoreInfo() {
+	public AdminUsersPage click_on_AdminUsersMoreInfo() {
 		adminusersMoreInfo.click();
 		return new AdminUsersPage(driver);
 	}
 
-	public ManageNewspage moreInfolink() {
+	public ManageNewspage click_on_ManageNews_moreInfolink() {
 		ManageNewsmoreinfo.click();
 		return new ManageNewspage(driver);
 	}
 
-	public ManageContactPage clickOnManageContactMoreInfoButtonInHomePage() {
+	public ManageContactPage click_onManageContact_MoreInfoButtonInHomePage() {
 
 		ManageContactMoreInfo.click();
 		return new ManageContactPage(driver);
 	}
 
-	public ManageFooterTextPage clickOn_MoreInfoButtonin_homepage() {
+	public ManageFooterTextPage clickOn_ManageFooterText_MoreInfoButtonin_Homepage() {
 		More_Info_ManageFooterText.click();
 		return new ManageFooterTextPage(driver);
 

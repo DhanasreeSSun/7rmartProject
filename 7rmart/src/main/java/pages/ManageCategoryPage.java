@@ -121,7 +121,7 @@ public class ManageCategoryPage {
 
 	}
 
-	public ManageCategoryPage clickOnSaveButton() {
+	public ManageCategoryPage clickOnSaveButton_in_ManageCategory() {
 
 		pageutility.javaScriptClick(saveButton, driver);
 		return this;
@@ -134,7 +134,7 @@ public class ManageCategoryPage {
 	/*
 	 * public void ClickDeleteButton(int index) { DeleteButton.get(index).click(); }
 	 */
-	public void clickDeleteButton() {
+	public void clickDeleteButton_in_ManageCategoryPage() {
 		deleteButton.click();
 
 		driver.switchTo().alert().accept();

@@ -67,7 +67,7 @@ public class ManageContactPage {
 		return this;
 	}
 
-	public ManageContactPage enterDeliveryTimeinDeliveryTimeTextField(String deliverytime) {
+	public ManageContactPage enterDeliveryTime_in_DeliveryTimeTextField(String deliverytime) {
 		DeliveryTime.clear();
 		DeliveryTime.sendKeys(deliverytime);
 		return this;

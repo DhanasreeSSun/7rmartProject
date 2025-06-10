@@ -18,7 +18,7 @@ public class ManageCategoryTest extends Base {
 	ManageCategoryPage managecategorypage;
 
 	@Test(description = "verify the Items entered in ManageCategory Page should be entered successfully", retryAnalyzer = retry.Retry.class)
-	public void verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully() throws IOException, AWTException {
+	public void verifyItemsinManageCategoryPageShouldBeEnteredSuccessfully() throws IOException, AWTException {
 		String username = ExcelUtility.getStringData(1, 0, "loginpage");
 		String password = ExcelUtility.getStringData(1, 1, "loginpage");
 		LoginPage loginpage = new LoginPage(driver);
@@ -35,7 +35,7 @@ public class ManageCategoryTest extends Base {
 				.clickOnSelectablefromSelectGroups().clickOnChooseFileandChooseFile()
 				.chooseanOptionFromTheRadioButtonForShowOnTopMenu(topradiobtn)
 				.chooseanOptionFromTheRadioButtonForShowOnLeftMenu(leftradiobtn)
-				.enterCategoryinCategoryaddPage(category).clickOnSaveButton();
+				.enterCategoryinCategoryaddPage(category).clickOnSaveButton_in_ManageCategory();
 
 		boolean suuceesfullGreenalertvar = managecategorypage.isSuccessfullGreenAlertDisplayedForSave();
 		Assert.assertTrue(suuceesfullGreenalertvar, Constants.ADDCATEGORYERROR);
@@ -43,14 +43,14 @@ public class ManageCategoryTest extends Base {
 	}
 
 	@Test(description = "Verify the selected Item Delete from the ListCategories", retryAnalyzer = retry.Retry.class)
-	public void verifyitemselectedForDeletesuccessfullyDeleteFromListCategories() throws IOException {
+	public void verify_User_is_able_to_Delete_itemselectedForDelete_successfully_from_ListCategories() throws IOException {
 		String username = ExcelUtility.getStringData(1, 0, "loginpage");
 		String password = ExcelUtility.getStringData(1, 1, "loginpage");
 		LoginPage loginpage = new LoginPage(driver);
 		loginpage.enterUserName(username).enterPassword(password);
 		homepage = loginpage.clickSigninButton();
 		managecategorypage = homepage.clickOnManageCategoryMoreInfo();
-		managecategorypage.clickDeleteButton();
+		managecategorypage.clickDeleteButton_in_ManageCategoryPage();
 		boolean deletesuccessfulvar = managecategorypage.isSuccessfullGreenAlertForDeleteisDisplayed();
 		Assert.assertTrue(deletesuccessfulvar, Constants.DELETECATEGORYERROR);
 	}

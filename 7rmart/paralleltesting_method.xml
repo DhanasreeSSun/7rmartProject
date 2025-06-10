@@ -11,23 +11,23 @@
 			<class name="testscript.ManageCategoryTest">
 				<methods>
 					<include
-						name="verifyItemsEnteredInManageCategoryPageShouldBeEnteredSuccessfully"></include>
+						name="verifyItemsinManageCategoryPageShouldBeEnteredSuccessfully"></include>
 				</methods>
 			</class>
 			<class name="testscript.AdminUsersTest">
 				<methods>
-					<include name="verifyAdminUsersTest"></include>
+					<include name="verify_whether_User_is_able_to_AddAdminUsers_in_AdminUsersPage"></include>
 				</methods>
 			</class>
 			<class name="testscript.ManageContactTest">
 				<methods>
 					<include
-						name="verifyContactDetailsUpdateSuccessfullyinContactUsPage"></include>
+						name="verifyUserisAbletoUpdateContactDetailsSuccessfullyinContactUsPage"></include>
 				</methods>
 			</class>
 			<class name="testscript.ManageNewsTest">
 				<methods>
-					<include name="verifyManageNewsPage"></include>
+					<include name="verifyTheUserIsAbleToEnter_and_Save_News_in_ManageNewsPage"></include>
 				</methods>
 			</class>
 
